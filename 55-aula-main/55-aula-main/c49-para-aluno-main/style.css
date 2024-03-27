@@ -1,0 +1,36 @@
+* {
+    border: ridge;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background-color: rgb(192, 66, 250);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{ 
+    display: flex; 
+    justify-content: flex-end;
+ }
+
+ body{
+    background-color: #ff92b2 
+ }

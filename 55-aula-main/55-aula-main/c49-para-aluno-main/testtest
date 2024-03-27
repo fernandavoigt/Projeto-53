@@ -1,0 +1,8 @@
+@playerSendsChatMessage
+for ('index', 0, 3) {
+  if (subString(lastChatMessageSenttriggeringPlayer, getStringArrayElement(#index, #BadWords)) == true) {
+    showCustomModalToPlayer('<strong>you have been warned!</strong>)
+</br>
+Please refrain yourself from using "' + getStringArrayElement(#index, #BadWords) + '"'
+  }
+}
